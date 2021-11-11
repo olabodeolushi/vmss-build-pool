@@ -28,8 +28,6 @@
     {
       "type": "shell",
       "scripts": [
-        "/home/bodeolushi/olushiproj/vmss-build-pool/linux/scripts/installers/Install-PowerShellModules.ps1",
-        "/home/bodeolushi/olushiproj/vmss-build-pool/linux/scripts/installers/Install-AzureModules.ps1",
           "/home/bodeolushi/olushiproj/vmss-build-pool/linux/scripts/installers/azcopy.sh",
           "/home/bodeolushi/olushiproj/vmss-build-pool/linux/scripts/installers/azure-cli.sh",
           "/home/bodeolushi/olushiproj/vmss-build-pool/linux/scripts/installers/azure-devops-cli.sh",

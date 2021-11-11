@@ -3,22 +3,22 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "adminUsername": {
-            "value": "azdo"
+            "value": "bode.olushi"
         },
         "adminPassword": {
-            "value": "<<<password>>>"
+            "value": "Phoenix@Rico1986!"
         },
         "subnetId": {
-            "value": "/subscriptions/xxxx/resourceGroups/resource-group/providers/Microsoft.Network/virtualNetworks/vnet-name/subnets/default"
+            "value": "/subscriptions/72ae671f-7935-41a6-bee7-50fe966fb732/resourceGroups/resource-group/providers/Microsoft.Network/virtualNetworks/vnet-name/subnets/default"
         },
         "managedImageResourceUri": {
-            "value": "/subscriptions/xxxx/resourceGroups/resource-group/providers/Microsoft.Compute/images/build-agent-image"
+            "value": "/subscriptions/72ae671f-7935-41a6-bee7-50fe966fb732/resourceGroups/resource-group/providers/Microsoft.Compute/images/build-agent-image"
         },
         "agentOrgUrl": {
-            "value": "https://dev.azure.com/organization"
+            "value": "https://dev.azure.com/bodeolushi0937"
         },
         "agentPat": {
-            "value": "<<<pat>>>"
+            "value": "lhj4j7kefmnrbb3hz4ctndvgaszvn75nhgwaynvdws6ia2sk5dqa"
         },
         "agentPool": {
             "value": "VMSSPool"

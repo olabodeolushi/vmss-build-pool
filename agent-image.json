@@ -94,13 +94,6 @@
     "execute_command": "sudo sh -c '{{ .Vars }} {{ .Path }}'"
     },
     {
-      "type": "shell",
-      "scripts":[
-        "/home/bodeolushi/olushiproj/vmss-build-pool/linux/scripts/installers/Install-PowerShellModules.ps1",
-        "/home/bodeolushi/olushiproj/vmss-build-pool/linux/scripts/installers/Install-AzureModules.ps1"
-      ]
-    },
-    {
       "type": "file",
       "source": "start-agent.sh",
       "destination": "/tmp/start-agent.sh"

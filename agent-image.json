@@ -1,17 +1,17 @@
 {
   "variables": {
-    "client_id": "{{env `1a3fb0ed-6916-4401-991c-2bc8be9c0b34`}}",
-    "client_secret": "{{env `U1S7Q~i5QryPFcqJiuykYUPbalv4NjMTCrAvG`}}",
-    "subscription_id": "{{env `72ae671f-7935-41a6-bee7-50fe966fb732`}}",
-    "tenant_id": "{{env `3ee7966c-2285-4da4-ba82-a9696915e304`}}"
+    "client_id": "1a3fb0ed-6916-4401-991c-2bc8be9c0b34",
+    "client_secret": "U1S7Q~i5QryPFcqJiuykYUPbalv4NjMTCrAvG",
+    "subscription_id": "72ae671f-7935-41a6-bee7-50fe966fb732",
+    "tenant_id": "3ee7966c-2285-4da4-ba82-a9696915e304`"
   },
   "builders": [
     {
       "type": "azure-arm",
-      "subscription_id": "{{user `subscription_id`}}",
-      "tenant_id": "{{user `tenant_id`}}",
-      "client_id": "{{user `client_id`}}",
-      "client_secret": "{{user `client_secret`}}",
+      "subscription_id": "72ae671f-7935-41a6-bee7-50fe966fb732",
+      "tenant_id": "3ee7966c-2285-4da4-ba82-a9696915e304",
+      "client_id": "1a3fb0ed-6916-4401-991c-2bc8be9c0b34",
+      "client_secret": "U1S7Q~i5QryPFcqJiuykYUPbalv4NjMTCrAvG",
 
       "managed_image_name": "build-agent-image",
       "managed_image_resource_group_name": "vmss-build-pool",
